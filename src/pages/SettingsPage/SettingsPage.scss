@@ -1,0 +1,79 @@
+body {
+    background-color: lavender;
+}
+.padding {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 600px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.userCard {
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.userCard .userProfile {
+    border-radius: 5px 0 0 5px;
+}
+
+.userProfile {
+    position: relative;
+    background: -webkit-gradient(linear, left top, right top, from(#1c1a8f), to(#8130a781));
+    background: linear-gradient(to right, #931fa3, #1c1a8f);
+}
+
+.userProfile {
+    padding-left: 18px;
+}
+
+.cardBlock {
+    padding: 1.25rem;
+}
+
+.imgDiv {
+    margin-bottom: 25px;
+}
+
+.img {
+    border-radius: 5px;
+}
+
+h5 {
+    font-size: 20px;
+}
+h6 {
+    font-size: 14px;
+}
+
+p {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #919aa3 ;
+}
+.ToggleComponent {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.Linker1{
+    position: absolute;
+    margin-top:30px;
+    right: 10px;
+}
+.Linker2{
+    position: absolute;
+    margin-top: 30px;
+    left: 10px;
+}
